@@ -24,14 +24,14 @@ console.log('Task ' + taskSix)
 for(let i = 1; i <= 5; i++) {
     console.log(i)
 }
-
+//---------------------------------------
 const taskSeven = 7
 console.log('Task ' + taskSeven)
 
 for(let i = 5; i>= 1; i--) {
     console.log(i)
 }
-
+//--------------------------------------
 const taskEight = 8
 console.log('Task ' + taskEight)
 
@@ -45,3 +45,50 @@ function getMarkInfo(condition) {
 
 getMarkInfo(10)
 getMarkInfo(5)
+// -------------------------
+const taskNine = 9
+console.log('Task ' + taskNine)
+
+function getDayInfo(position) {
+    switch(position) {
+        case 0:
+        console.log('Sunday')
+        break
+        
+        case 1:
+        console.log('Monday')
+        break
+        
+        case 2:
+        console.log('Tuesday')
+        break
+        
+        case 3:
+        console.log('Wednesday')
+        break
+        
+        case 4:
+        console.log('Thursday')
+        break
+        
+        case 5:
+        console.log('Friday')
+        break
+        
+        case 6:
+        console.log('Saturday')
+        break
+
+        default:
+            console.log('Wrong data')
+    }
+}
+
+getDayInfo(0)
+getDayInfo(1)
+getDayInfo(2)
+getDayInfo(3)
+getDayInfo(4)
+getDayInfo(5)
+getDayInfo(6)
+getDayInfo(7)
