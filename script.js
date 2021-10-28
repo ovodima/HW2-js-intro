@@ -92,3 +92,16 @@ getDayInfo(4)
 getDayInfo(5)
 getDayInfo(6)
 getDayInfo(7)
+//-------------------------------------------------
+
+const taskTen = 10
+console.log('Task ' + taskTen)
+let arr = ['a', 'b', 'c']
+let firstPush = arr.push(1,2,3) 
+console.log(arr)
+//----------------------------------------------------
+const taskEleven = 11
+console.log('Task ' + taskEleven)
+let arrFirst = [1, 2, 3]
+let arrSecond = [4, 5, 6]
+console.log(arrFirst.concat(arrSecond))
