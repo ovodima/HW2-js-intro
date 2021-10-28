@@ -105,3 +105,15 @@ console.log('Task ' + taskEleven)
 let arrFirst = [1, 2, 3]
 let arrSecond = [4, 5, 6]
 console.log(arrFirst.concat(arrSecond))
+//--------------------------------------------------------
+const taskTwelve = 12
+console.log('Task ' + taskTwelve)
+
+function countNumber(number) {
+    let sum = 0
+    for(let i = 0; i <= number; i++) {
+        sum = sum + i
+    }
+    return console.log(sum)
+  }
+  countNumber(3)
