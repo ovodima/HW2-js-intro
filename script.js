@@ -34,3 +34,14 @@ for(let i = 5; i>= 1; i--) {
 
 const taskEight = 8
 console.log('Task ' + taskEight)
+
+function getMarkInfo(condition) {
+    if(condition === 10){
+        console.log('У вас максимальный балл')
+    } else {
+        console.log('У вас средний балл')
+    }
+}
+
+getMarkInfo(10)
+getMarkInfo(5)
